@@ -1,0 +1,70 @@
+{
+  "name": "hrms",
+  "version": "0.1.0",
+  "homepage": ".",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.2",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/react-select": "^5.0.1",
+    "axios": "^0.25.0",
+    "buffer": "^6.0.3",
+    "html-react-parser": "^1.4.12",
+    "html-to-pdfmake": "^2.3.11",
+    "jspdf": "^2.5.1",
+    "pdfmake": "^0.2.5",
+    "react": "^17.0.2",
+    "react-calendar": "^3.7.0",
+    "react-contenteditable": "^3.3.6",
+    "react-data-table-component": "^7.5.1",
+    "react-datepicker": "^4.8.0",
+    "react-dom": "^17.0.2",
+    "react-easy-edit": "^1.15.0",
+    "react-editable-select": "^1.0.0",
+    "react-hook-form": "^7.31.2",
+    "react-html-parser": "^2.0.2",
+    "react-inline-editing": "^1.0.10",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "^5.0.1",
+    "react-select": "^5.4.0",
+    "react-to-print": "^2.14.10",
+    "react-tooltip": "^4.5.1",
+    "redirect": "^0.2.0",
+    "styled-components": "^5.3.5",
+    "xlsx": "^0.18.5",
+    "xtypejs": "^0.7.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ],
+    "rules": {
+      "eqeqeq": "off",
+      "no-unused-vars": "off"
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "html2canvas": "^1.4.1",
+    "web-vitals": "^3.0.1"
+  }
+}

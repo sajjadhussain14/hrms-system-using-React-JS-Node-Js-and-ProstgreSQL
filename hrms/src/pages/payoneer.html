@@ -1,0 +1,37 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="op-payment-widget-v3.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="op-payment-widget-v3.min.css">
+  <style>
+  @media only screen and (max-device-width: 736px){
+  body {
+  background-color: #F2F2F2;
+    }
+   }
+  </style>
+  <script type="text/javascript">
+    function initPaymentPage() {
+      var dict = {};
+                checkoutList('paymentNetworks', {
+                    payButton: 'submitBtn',
+                    payButtonContainer: 'submitBtnContainer',
+                    listUrl: listResponse.links.self,
+                    smartSwitch: true,
+                });
+            }
+            document.addEventListener('DOMContentLoaded', function (event) {
+                initPaymentPage();
+  });
+  </script>
+</head>
+<body>
+  <div id="paymentNetworks" class="payment-networks-container">
+  </div>
+  <div id="submitBtnContainer" class="submit-buttons-container">
+  <button id="submitBtn" type="button"></button>
+  </div>
+</body>
+</html> 

@@ -1,0 +1,933 @@
+.form-group .form-control {appearance: auto;}
+.form-group label {margin-bottom: 3px; margin-top: 5px;}
+
+.text-red {color: #ff0000;}
+.button-template {
+  height: 38px !important;
+  width: 100% !important;
+  max-width: 220px !important;
+  background: #dc3545;
+  border-radius: 25px !important;
+  font-size: 16px !important;
+  color: #FFFFFF;
+  border: 0px !important;
+  text-align: center !important;
+}
+.btn-edit {background: none !important; text-decoration: underline; color: #126DFC !important; width: auto !important; height: auto !important; margin: 0 !important; display: inline-block !important;}
+
+.editableInputLabelClass {border-bottom: 2px solid #126DFC; min-width: 50px; height: 30px;}
+
+textarea:focus {
+  outline: 1px auto Highlight; /* Firefox */
+  outline: 1px auto -webkit-focus-ring-color; /* Chrome, Safari */
+}
+
+a.disabled, button.disabled {
+  cursor: default; 
+  background-color: rgba(235, 235, 228, 1) !important;
+  color: rgb(84, 84, 84) !important;
+  border-color: rgba(118, 118, 118, 1) !important;
+}
+
+.popupMessageBox {position:fixed; top: 80px; margin: auto;}
+.popupMessageBox a {position:absolute; right: 10px; top: 15px; color: green; text-decoration: none; font-weight: bold;}
+
+.loader {margin: auto auto; width: fit-content; margin-top: 12%;}
+
+#canvas-container {
+    box-shadow: 0 6px 12px rgba(0,0,0,.175)!important;
+    border-color: #ccc!important;
+}
+
+.canvasjs-chart-credit {display: none;}
+
+.attendance-badge {
+  background: #00B500;
+  color: #fff;
+  border-radius: 5px;
+  width: auto;
+  padding: 5px 6px;
+  margin-right: 10px;
+  float: right;
+  font-size: 11px;
+  font-style: italic;
+  width: 40px;
+}
+
+
+/****************************Header SideBar CSS Start**********************/
+header{height: 61px;border:1px solid #CFCFCF;max-width: 1440px;margin: 0 auto;}
+header .container-fluid{height: 100%;}
+header .container-fluid .row{height: 100%;}
+header .mainLogo{display:flex;align-items: center;}
+header .mainLogo img{max-width: 113px;width: 100%;margin-left: auto;display: block;}
+header .companyName{display: flex;align-items: center;}
+header .companyName p{margin-bottom: 0px;}
+header .companyName p img{margin-right: 42.9px;}
+header .companyName p span{font-size: 16px;font-weight: 600;color:#333;text-transform: capitalize;}
+header .companyName p i {color:#207DAF;}
+header .headerIcons{display: flex;align-items: center;justify-content: space-between;line-height: 61px;}
+header .headerIcons div{height: 100%;}
+header .headerIcons span{position: relative;display: inline-block;height: 100%;}
+header .headerIcons span b{width: 22px;height: 19px;text-align: center;font-size: 12px;color:#fff;line-height:initial;font-weight: 800;background-color: #207DAF;border-radius: 9px;position: absolute;top: -15px;right:-15px;}
+header .headerIcons span img{display: block;margin: 0 auto;width: 100%;max-width: max-content;}
+header .headerIcons span:last-of-type{margin-right:1px;display: flex;align-items: center;justify-content: space-between;}
+header .headerIcons span:last-of-type img:last-of-type{margin-left:4.12px;}
+header .headerIcons span a.account {margin-right:1px;display: flex;align-items: center;justify-content: space-between; color: #333; text-decoration: none;}
+header .headerIcons span a.account:hover{text-decoration: underline;}
+header .headerIcons span .drop-down {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  list-style: none;
+  padding: 10px;
+  top: 60px;
+  background: white;
+  line-height: 28px;
+  min-width: 150px;
+  right: 0px;
+  z-index: 300000;
+  box-shadow: 0px 2px 5px -1px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 2px 5px -1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 2px 5px -1px rgba(0,0,0,0.75);
+}
+header .headerIcons span .drop-down li a{
+  color:#333;
+  font-size:14px;
+  font-weight: 600;
+  line-height: 15px;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+header .headerIcons span:last-of-type:hover .drop-down {
+  visibility: visible;
+  opacity: 1;
+}
+#sidebar{height: calc(100vh - 97px);overflow-y: auto;}
+#sidebar .sidebarbutton{font-size:14px;line-height: 19px;font-weight: 600;text-transform: capitalize;margin-bottom: 9px;color:#333;padding: 0px;margin-top: 9px;width:100%;text-align: left;}
+#sidebar .sidebarbutton img:last-of-type{float: right;top:5px;position: relative;}
+#sidebar ul li a{color:#333;font-size:12px;font-weight: 600;line-height: 15px;text-transform: capitalize;padding: 0px;margin: 0px;margin-bottom: 21px;margin-left:15px;text-decoration: none;}
+#sidebar ul li a:hover{text-decoration: underline;}
+#sidebar ul li a b{width: 22px;height: 19px;line-height:19px;text-align: center;font-size: 12px;color:#fff;line-height:initial;font-weight: 800;background-color: #207DAF;border-radius: 10px;margin-left: 15px;display: inline-block;}
+
+footer {background: #f2f2f2;}
+footer p { font-size: 11px;}
+footer a { font-size: 11px; text-decoration: underline !important;}
+footer .companyName{display: flex;align-items: center;}
+footer .companyName p{margin-bottom: 0px;}
+footer .companyName p img{margin-right: 7px; margin-top: -6px;}
+footer .companyName p span{font-size: 11px;font-weight: 600;color:#333;text-transform: capitalize; font-weight: bold;}
+
+.confirmModal {opacity: 1 !important; }
+.confirmModal .close { float: right; font-size: 21px; font-weight: 700; line-height: 1; color: #000; text-shadow: 0 1px 0 #fff; filter: alpha(opacity=50); opacity: .5; padding: 0; cursor: pointer; background: 0 0; border: 0;}
+.confirmModal .close span {line-height: 0px; font-size: 33px; font-weight: 600; margin-top: 0px;}
+.confirmModal .modal-title {margin: 0; line-height: 1.42857143;}
+.confirmModal #modal-btn-cancel {color: #333; background-color: #f5f3f3; border-color: #adadad;}
+.confirmModal .modal-dialog .modal-content {top: 22px;}
+.confirmModal .modal-dialog {top: 12%;}
+.confirmModal .modal-body p {color: #000;}
+
+#login{height:calc(100vh - 97px);display: flex;align-items: center;background:url("../images/Path 116.svg"), #207DAF;background-repeat:no-repeat;background-position: top right;background-size:auto;}
+#login .loginFormContent{border: 1px solid #D8DDE6;border-radius: 5px;background-color: #fff;padding: 29px 33px;margin-top: 27px;max-width: 404px;margin:27px auto 0;}
+#login .loginFormContent form label{font-family: 'Montserrat', sans-serif;font-size: 16px;color: #000;line-height: 19px;text-transform: capitalize;margin-bottom: 8px;font-weight: 500;}
+#login .loginFormContent form input.form-control{max-width: 338px;width: 100%;border-radius: 5px;height: 42px;border:1px solid #D8DDE6;margin-bottom:24px;}
+#login .loginFormContent form button{background-color: #207DAF;border-radius: 5px;height: 42px;width: 100%;max-width: 338px;font-size:16px;line-height: 42px;color:#fff;font-weight: bold;text-align: center; text-transform: capitalize;margin: 0 auto 24px;display: block;padding: 0px;}
+#login .loginFormContent hr{margin:23.5px auto 24.5px;display: block;}
+#login .loginFormContent a{font-family: 'Montserrat', sans-serif;font-size: 16px;color: #000;line-height: 19px;text-transform: capitalize;margin-bottom: 8px;font-weight: 500;text-decoration: none;font-family: 'Montserrat', sans-serif;font-weight: 600;margin-bottom: 20px;}
+
+
+#memreset{height: 100vh;display: flex;align-items: start;background:#F6F6F6; }
+#memreset .ResetFormContent{border: 1px solid #E3E3E3;border-radius: 5px;background-color: #fff;padding: 29px 33px;margin-top: 27px;max-width: 404px;margin:27px auto 0;}
+#memreset .ResetFormContent form label{font-family: 'Montserrat', sans-serif;font-size: 16px;color: #000;line-height: 19px;text-transform: capitalize;margin-bottom: 8px;font-weight: 500;}
+#memreset .ResetFormContent form input.form-control{max-width: 338px;width: 100%;border-radius: 5px;height: 42px;border:1px solid #D8DDE6;margin-bottom:24px;}
+#memreset .ResetFormContent form button{background-color: #207DAF;border-radius: 5px;height: 42px;width: 100%;max-width: 338px;font-size:16px;line-height: 42px;color:#fff;font-weight: bold;text-align: center; text-transform: capitalize;margin: 0 auto 24px;display: block;padding: 0px;}
+#memreset .ResetFormContent hr{margin:23.5px auto 24.5px;display: block;}
+#memreset .ResetFormContent a{font-family: 'Montserrat', sans-serif;font-size: 16px;color: #000;line-height: 19px;text-transform: capitalize;margin-bottom: 8px;font-weight: 500;text-decoration: none;font-family: 'Montserrat', sans-serif;font-weight: 600;margin-bottom: 20px;}
+
+
+/*************************START - Menu Notifications**************************/
+.notifications {
+  position: relative;
+  display: inline-block;
+  border-radius: 5px;
+}
+.notifications .dropdown-content {
+  display: none;
+  position: absolute;
+  right: -150%;
+  background-color: #747474;
+  min-width: 300px;
+  height: auto;
+  border-radius: 5px;
+  border: 1px solid #7f7f7f;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.notifications .dropdown-content .head {
+  font-weight: 500;
+  font-size: 20px;
+  border-bottom: 1.5px solid #fff;
+}
+.notifications .dropdown-content p {
+  color: #FFFFFF;
+  padding: 5px 10px;
+  text-decoration: none;
+  display: block;
+  background: #747474;
+  line-height: 30px;
+}
+.notifications .dropdown-content a {
+  color: #FFFFFF;
+  padding: 8px 10px;
+  text-decoration: none;
+  display: block;
+  background: #747474;
+  line-height: 22px;
+  border-bottom: 1px solid #a5a5a5;
+}
+.notifications .dropdown-content a:last-of-type {border-bottom: 0;}
+.notifications .dropdown-content a:hover {background-color: #7f7f7f; text-decoration: underline;}
+.notifications .dropdown:hover .dropdown-content {
+  display: block;
+}
+.notifications .dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+/*************************END - Menu Notifications**************************/
+
+
+/*************************START - Admin Dashboard **************************/
+.dashboard-header .content-header-title {
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #464855;
+  padding: 6px 24px 8px 0;
+  margin: 0 24px 0 0;  
+}
+.dashboard-header .btn-info{
+  border-color: #1e9ff2!important;
+  background-color: #1e9ff2!important;
+  color: #FFFFFF;
+  float: right;
+}
+.pull-up {
+  transition: all .25s ease;
+}
+.pull-up:hover {
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 0 14px 24px rgb(62 57 107 / 20%);
+  z-index: 30;
+}
+.dashboard .card {
+  margin-bottom: 1.875rem;
+  border: none;
+  box-shadow: 0 2px 18px 1px rgb(49 53 72 / 10%);
+  border-radius: 0.45rem;
+}
+.dashboard .card .card-body {
+  flex: 1 1 auto;
+  padding: 1.5rem;
+}
+.dashboard .card .media-body {
+  flex: 1;
+}
+.dashboard .card h3 {
+  font-size: 1.51rem;
+  font-weight: 400;
+  vertical-align: middle;
+}
+.dashboard .card h6 {
+  font-size: 1rem;  
+}
+.dashboard .card h6 button {
+  border: 0;
+  background: transparent;  
+}
+.dashboard .card h6 button i{
+  font-size: 1.17rem;
+  font-weight: 400;
+}
+.dashboard .card i {
+  font-size: 3rem;  
+}
+.dashboard .card .info {color: #1e9ff2;}
+.dashboard .card .danger {color: #ff4961;}
+.dashboard .card .warning {color: #ff9149;}
+.dashboard .card .success {color: #28d094;}
+.dashboard .card .bg-gradient-x-info {
+  background-image: linear-gradient(to right,#0c84d1 0,#4eb4f5 100%);
+  background-repeat: repeat-x;
+}
+.dashboard .card .bg-gradient-x-danger {
+  background-image: linear-gradient(to right,#ff1635 0,#ff7c8d 100%);
+  background-repeat: repeat-x;
+}
+.dashboard .card .bg-gradient-x-warning {
+  background-image: linear-gradient(to right,#ff7216 0,#ffb07c 100%);
+  background-repeat: repeat-x;
+}
+.dashboard .card .bg-gradient-x-success {
+  background-image: linear-gradient(to right,#20a576 0,#4eddaa 100%);
+  background-repeat: repeat-x;
+}
+.dashboard .card .progress.progress-sm {
+  height: 0.5rem!important;
+  box-shadow: 0 10px 18px 0 rgb(62 57 107 / 20%);
+}
+
+.dashboard .card2 {
+  margin-bottom: 1.875rem;
+  border: none;
+  box-shadow: 0 2px 18px 1px rgb(49 53 72 / 10%);
+  border-radius: 0.45rem;
+  background-color: #fff;
+}
+.dashboard .card2 .card-header {
+  padding: 1.5rem;
+  border-bottom: 1px solid rgba(0,0,0,.06);
+}
+.dashboard .card2 .card-header:first-child {
+  border-radius: 0.45rem 0.45rem 0 0;
+  background-color: #fff;
+  border: 0;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  position: relative;
+}
+.dashboard .card2 .card-title {
+  font-weight: 500;
+  letter-spacing: .05rem;
+  font-size: 1.12rem;
+  line-height: 1.2;
+  color: #464855;
+}
+.dashboard .card2 .card-body {
+  padding: 1.5rem;
+}
+.dashboard .card2 .list-group {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;  
+}
+.dashboard .card2 .list-group-item {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  padding: .5rem  1.25rem;
+  margin-bottom: -2px;
+  background-color: #fff;
+  border: 1px solid #e4e7ed;
+}
+.dashboard .card2 .list-group-item .duration{
+  position: absolute;
+  top: -9px;
+  font-size: 11.6px;
+  color: #4ca64c;
+  background: #000;
+  font-weight: 700;
+  padding: 0px 4px;
+  width: 165px;
+  text-align: center;
+  left: 21px;
+}
+
+.dashboard .card2 ul.list-inline li {
+  display: inline-block;
+}
+.dashboard .card2 .card-header .heading-elements a, .dashboard .card2 .card-header .heading-elements-toggle a {
+  padding: 0 8px;
+  margin: 0 3px;
+  color: #464855;
+}
+.dashboard .card2 .card-header .heading-elements a:hover, .dashboard .card2 .card-header .heading-elements-toggle a:hover {
+  cursor: pointer;
+}
+.dashboard .card2 .badge.badge.float-right {
+  margin-left: 0.5rem;
+  margin-top: 0.15rem;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  line-height: 16px;
+  background-color: #ff9149;
+  color: #FFFFFF;
+  font-size: 12px;
+  font-weight: 500;
+  text-align: center;
+  padding: 4px;
+  letter-spacing: 1px;
+}
+.dashboard .card2 div .date {
+  position: absolute;
+  top: -9px;
+  font-size: 11.6px;
+  color: #4ca64c;
+  background: #000;
+  font-weight: 700;
+  padding: 0px 4px;
+  width: 170px;
+  text-align: center;
+}
+.dashboard .card2 .card-header .heading-elements, .dashboard .card2 .card-header .heading-elements-toggle {
+  background-color: inherit;
+  position: absolute;
+  top: 24px;
+  right: 20px;
+}
+.dashboardDialog ul {
+  padding: 0px;
+  list-style: none;
+}
+.dashboardDialog ul li {
+  display: flex;
+  line-height: 25px;    
+}
+.dashboardDialog ul li a{
+  font-size: 15px;
+  color: #000000;  
+}
+.dashboardDialog ul li span.title{
+  font-size: 14px;
+  color: #0E8C3A;
+  margin: 0px;
+  margin-left: 8px;
+  font-weight: normal;
+  line-height: 26px;
+}
+.dashboardDialog ul li span.count{
+  font-size: 10px;
+  color: #fff;
+  background: #ff9149;
+  margin: 0px;
+  margin-right: 8px;
+  font-weight: 600;
+  line-height: 14px;
+  border-radius: 50%;
+  padding: 3px;
+  width: 19px;
+  height: 19px;
+  margin-top: 4px;
+  letter-spacing: .6px;
+}
+.dashboardDialog ul li span.date{
+  font-size: 11px;
+  color: #000;
+  margin: 0px;
+  margin-left: 8px;
+  font-weight: 600;
+  line-height: 26px;
+}
+/*************************END - Admin Dashboard **************************/
+
+/*************************ALL-Employee1 Inner Start**************************/
+.InnerContent{background-color: rgba(0,0,0,.06); height: auto;}
+ #filter input {border: 1px solid #E3E3E3;border-radius: 5px;max-width: 270px;width: 100%; height: 50px;color: #CFCFCF;font-size: 14px;line-height: 18px;padding-left: 15px;text-transform: capitalize;font-family: 'Montserrat', sans-serif;font-weight: 600;}
+#filter select {border: 1px solid #E3E3E3;border-radius: 5px;max-width: 270px;width: 100%; height: 50px;color: #676767;font-size: 14px;line-height: 18px;padding-left: 15px;text-transform: capitalize;font-weight: 600;font-family: 'Montserrat', sans-serif;}
+
+
+#AllEmployeeInner1 #ProfileCart .sub {border: 1px solid #E3E3E3; border-radius: 5px;background: #fff;}
+#AllEmployeeInner1 #ProfileCart .sub h2{font-size: 18px;line-height: 22px;color: #333333;font-family: 'Montserrat', sans-serif;font-weight: bold;text-align: center;    margin-top: 5px;margin-bottom: 0px;}
+#AllEmployeeInner1 #ProfileCart .sub p{font-size: 15px;line-height: 19px;color: #8E8E8E;font-family: 'Montserrat', sans-serif;font-weight: 600;text-align: center;margin-bottom: 24px;}
+#AllEmployeeInner1 #ProfileCart .sub button {position: absolute;top: 10px;right: 10px; color:#8E8E8E ;border: 0;background: transparent;}
+/*************************ALL-Employee1 Inner End**************************/
+
+/*************************ListView Inner Start**************************/
+.table-striped>tbody>tr:nth-child(odd)>td{background-color: #E9E9E9;}
+.table-striped>tbody>tr:nth-child(even)>td{background-color: #fff;}
+tbody, td, tfoot, th, thead, tr{border-style: none;}
+
+ .table thead{background: #fff;}
+#AllEmployeeListView #innerListView .table th {font-size: 14px;line-height: 18px;color: #333333;font-family: 'Montserrat', sans-serif;font-weight: bold;}
+#AllEmployeeListView #innerListView .table td {height: 60px;}
+#AllEmployeeListView #innerListView .table .info p{margin-bottom: 0px; margin-left: 10px;}
+#AllEmployeeListView #innerListView .table .info .name{font-size: 15px;line-height: 19px;color: #333333;font-family: 'Montserrat', sans-serif;font-weight: 600;}
+#AllEmployeeListView #innerListView .table .info .designation{font-size: 12px;line-height: 15px;color: #8E8E8E;font-family: 'Montserrat', sans-serif;font-weight: 600;}
+#AllEmployeeListView #innerListView .table .Anumber{font-size: 14px;line-height: 60px;color: #333333;font-family: 'Montserrat', sans-serif;font-weight: 600;}
+#AllEmployeeListView #innerListView .table .contact{font-size: 14px;line-height: 60px;color: #126DFC;font-family: 'Montserrat', sans-serif;font-weight: 600;}
+/*************************ListView Inner End**************************/
+
+
+/*************************Setting Start**************************/
+.setting {background:#fff; border: 1px solid #E3E3E3; border-radius: 5px;}
+.setting .inner button {display: block; margin: auto; max-width: 200px;width: 100%;height: 45px;border-radius: 23px;background: #228B22;text-align: center;font-size: 16px;color: #fff;line-height: 35px;border:0;font-family: 'Montserrat', sans-serif;font-weight: bold;}
+/*************************Setting End**************************/
+
+/*************************BreadCrumb Start**************************/
+.breadcrumbs .breadcrumbContent h2{font-size: 22px;line-height: 27px;color: #1F1F1F;font-family: 'Montserrat', sans-serif;font-weight: bold;}
+.breadcrumbs nav .breadcrumb .breadcrumb-item a{font-size: 14px;line-height: 18px;color: #1F1F1F;font-family: 'Montserrat', sans-serif;font-weight: bold;text-decoration: none;}
+.breadcrumbs nav .breadcrumb .breadcrumb-item.active {font-size: 14px;color: #6C757D;font-family: 'Montserrat', sans-serif;font-weight: bold;line-height: 26px;}
+#breadCrumbs .menuButton .employee {max-width: 176px; height: 38px;width: 100%;background: #207DAF;border-radius: 25px;font-size: 16px; color: #FFFFFF;border:0px;text-align: center;}
+#employeeProfile .employee {max-width: 176px; height: 38px;width: 100%;background: #207DAF;border-radius: 25px;font-size: 16px; color: #FFFFFF;border:0px;text-align: center;}
+#employeeProfile .employee.max-200 {max-width: 200px;}
+.menuButton .menutabs{border: 0;background: transparent;max-width: 40px;height: 38px; width: 100%;}
+.menuButton .menutabs i {border:1px solid #E3E3E3; max-width: 40px;height: 38px; width: 100%; line-height: 38px; text-align: center;color: #888888;background: #fff;}
+.menuButton .menutabs .icon1 {border:1px solid #E3E3E3 ; max-width: 40px;height: 38px; width: 100%; line-height: 38px; text-align: center;color: #333333;background: #fff;}
+/*************************BreadCrumb End**************************/
+
+/*************************Employee Profile CSS Start**************************/
+#employeeInfo{border:1px solid #E3E3E3; background:#fff;max-width: 100%;width: 100%;border-radius: 5px;margin-bottom: 10px;}
+
+#employeeInfo .personalInfo {padding: 24px 17px 27px;}
+#employeeInfo .profileInfo {border-right:1px dashed #CCCCCC;}
+#employeeInfo .profileInfo h3{font-size: 20px;line-height: 24px;color: #333333;font-family: 'Montserrat', sans-serif;font-weight: bold;margin-bottom: 0;}
+#employeeInfo .profileInfo p{font-size: 14px;line-height: 18px;color: #8E8E8E;font-family: 'Montserrat', sans-serif;font-weight: 600;margin-bottom: 8px;}
+#employeeInfo .profileInfo span{font-size: 15px;line-height: 19px;color: #8E8E8E;font-family: 'Montserrat', sans-serif;font-weight: 600;display: block;}
+#employeeInfo .profileInfo strong{font-size: 16px;line-height: 19px;color: #333333;font-family: 'Montserrat', sans-serif;font-weight: 600;}
+#employeeInfo .profileInfo button{max-width: 135px;width: 100%;height: 35px;border-radius: 5px;border: 1px solid #207DAF;background: #207DAF;line-height: 20px; text-align: center;color: #fff;font-size: 11px; display: block;text-decoration: none;font-family: 'Montserrat', sans-serif;font-weight: 600;margin-top: 35px;}
+#employeeInfo .bioInfo {padding: 15px 9px 0px;}
+#employeeInfo .bioInfo .sub {font-size: 15px;line-height: 33px;color: #4F4F4F;font-family: 'Montserrat', sans-serif;font-weight: bold;flex: 0 0 30%;display: block;}
+#employeeInfo .bioInfo .contactInfo {font-size: 15px;line-height: 33px;color: #126DFC;font-family: 'Montserrat', sans-serif;font-weight: bold;flex: 0 0 70%;}
+#employeeInfo .bioInfo .adressInfo {font-size: 13px;line-height: 33px;color: #8E8E8E;font-family: 'Montserrat', sans-serif;font-weight: bold;flex: 0 0 70%;}
+ .editButton {position: absolute; top: 15px;right: 10px;border: 0;background: transparent;}
+ .bioInfo button {position: absolute; top: 15px;right: 10px;border: 0;background: transparent;}
+/*#employeeTabs{background: #F6F6F6;height: 100vh;}*/
+#employeeInfo .profileInfo span div,
+#employeeInfo .profileInfo strong div,
+#employeeInfo .profileInfo h3 div {display: inline;} 
+#employeeInfo .profileInfo select {font-size: 15px; line-height: 19px; color: #8E8E8E; font-family: 'Montserrat', sans-serif; font-weight: 600; display: block; margin-left: -5px;}
+.profileInfo p input {font-size: 14px; line-height: 18px; color: #8E8E8E; font-family: 'Montserrat', sans-serif; font-weight: 600; margin-bottom: 8px;}
+/*************************Employee Profile CSS End**************************/
+
+/****************************Employee Profile Tabs CSS Start**********************/
+
+#employeeTabs .col-12.employeeTabInfo {border:1px solid #E3E3E3; background:#fff;border-radius: 5px;}
+#employeeTabs .employeeTabInfo #Profile-tab {font-size: 14px;line-height: 18px;color: #495057;font-family: 'Montserrat', sans-serif;font-weight: 600;}
+#employeeTabs .nav-item .nav-link {font-size: 14px;line-height: 18px;color: #495057;font-family: 'Montserrat', sans-serif;font-weight: 600;}
+#employeeTabs .nav-item .nav-link.active{border: 0px; border-bottom:2px solid #207DAF;} 
+.nav-item{margin-right: 20px;}
+#employeeTabs .nav-item .nav-link span{color:#F62D51;}
+#employeeTabs .nav-tabs{border: 0px!important;}
+
+.tab-pane h2{font-size: 18px;line-height: 22px;color: #333333;font-family: 'Montserrat', sans-serif;font-weight: bold;}
+#employeeTabs .tab-pane .tabContents{border:1px solid #E3E3E3; background:#fff;border-radius: 5px;margin-top: 30px;padding: 24px 17px 27px;position: relative;}
+#employeeTabs .tabContents .sub{font-size: 15px;line-height: 33px;color: #4F4F4F;font-family: 'Montserrat', sans-serif;font-weight: bold;flex: 0 0 30%;display: block;}
+#employeeTabs .tabContents .contactInfo{font-size: 15px;line-height: 33px;color: #8E8E8E;font-family: 'Montserrat', sans-serif;font-weight: bold;flex: 0 0 50%;}
+#employeeTabs .secondaryinfo{margin-top: 20px; }
+#employeeTabs .emergencyInfo {border-bottom:1px solid #C7C7C7;padding-bottom: 20px;}
+#employeeTabs .tabContents a {position: absolute; top: 15px;right: 10px;}
+#employeeTabs .Cinfo{width: 40%!important;}
+/****************************Employee Profile Tabs CSS End**********************/
+
+/****************************Employee Hodilday Table CSS End**********************/
+#EmployeeHolidaysTable .table td {height: 43px;padding: 0;}
+#EmployeeHolidaysTable .table tr {padding: 0 15px ;}
+#EmployeeHolidaysTable .table .number {text-align: center;}
+#EmployeeHolidaysTable .table-striped:nth-of-type(odd){background-color: #E9E9E9;font-size: 14px;color: #333333;font-family: 'Montserrat', sans-serif;font-weight: 600;}
+#EmployeeHolidaysTable .table-striped:nth-of-type(even) {font-size: 14px;line-height: 43px;color: #AAAAAA;font-family: 'Montserrat', sans-serif;font-weight: 600;}
+#EmployeeHolidaysTable .table-striped>tbody>tr:nth-of-type(even){font-size: 14px;line-height: 43px;color: #AAAAAA;font-family: 'Montserrat', sans-serif;font-weight: 600;}
+#EmployeeHolidaysTable .table td span a {text-decoration: none;position: absolute;top: 10px;right: 20px;color: #777777;}
+.table-striped>tbody>tr{position: relative;}
+#EmployeeHolidaysTable .table .viewButton {border: 0;border-radius: 17px;max-width: 100px;width: 100%;height: 33px;color: #fff;font-size: 12px;font-family: 'Montserrat', sans-serif;font-weight: bold;text-transform: capitalize;display: block;background: #207DAF; line-height: 30px; text-decoration: none;}
+#EmployeeHolidaysTable .table tfoot tr {border-top: 2px solid #000; background: #fff;}
+
+/****************************Employee Hodilday Table CSS End**********************/
+
+/****************************Employee Leave Table CSS Start**********************/
+#employeeLeaveRecord .leaveRecord {border: 1px solid #E3E3E3;border-radius: 5px; padding:10px; background-color: #fff;width: 100%;height: 140px; display:flex; flex-direction: column; justify-content: start; text-align: center;}
+#employeeLeaveRecord .leaveRecord i {color: #207DAF; font-size: 40px;}
+.leavesnumber strong{font-size: 14px;line-height: 20px;color: #7a7a77;font-family: 'Montserrat', sans-serif;font-weight: bold; text-transform: uppercase; text-align: center;display:block; margin-top: 10px;}
+.leavesnumber span{font-size: 20px;line-height: 20px;color: #333333;font-family: 'Montserrat', sans-serif;font-weight: bold;text-align: center;display:block; margin-top: 10px;}
+.leavesnumber p{font-size: 14px;line-height: 20px;color: #6C757D;font-family: 'Montserrat', sans-serif;font-weight: bold;text-align: center;}
+.leavesnumber p b{font-size: 20px;line-height: 20px;color: #333333;font-family: 'Montserrat', sans-serif;font-weight: bold;text-align: center;margin-right: 5px;}
+#filter a{position: absolute; top: 10px;right: 20px;display: none;}
+.showLeave strong {font-size: 14px;line-height: 18px;color: #1F1F1F;font-family: 'Montserrat', sans-serif;font-weight: 600;}
+#showLeave strong input {font-size: 14px!important;line-height: 35px;color: #1F1F1F;font-family: 'Montserrat', sans-serif;font-weight: 600;max-width: 52px;height: 35px;width: 100%;margin-right: 5px;margin-left: 5px;}
+.employeeLeaveTable .table .info p{margin-bottom: 0px; margin-left: 10px;}
+.employeeLeaveTable .table thead tr {height: 0;}
+.employeeLeaveTable .table thead tr th{font-size: 14px;line-height: 35px;color: #333333;font-family: 'Montserrat', sans-serif;font-weight: bold;}
+.employeeLeaveTable .table thead tr th .day {width: 100%; display: block; line-height: 20px; color: #727272; font-weight: normal;} 
+.employeeLeaveTable .table .info .name{font-size: 15px;line-height: 19px;color: #333333;font-family: 'Montserrat', sans-serif;font-weight: 600;}
+.employeeLeaveTable .table .info .designation{font-size: 12px;line-height: 15px;color: #8E8E8E;font-family: 'Montserrat', sans-serif;font-weight: 600;}
+.employeeLeaveTable .table .Anumber{font-size: 14px;line-height: 60px;color: #333333;font-family: 'Montserrat', sans-serif;font-weight: 600;}
+.employeeLeaveTable .table .Anumber .statusBadge { position: absolute; line-height: 8px; width: 40px; white-space: pre-wrap; font-size: 9px; color: #198754; top: 3px;}
+.employeeLeaveTable .table .Anumber .timeBadge { position: absolute; line-height: 9px; width: 46px; white-space: pre-wrap; font-size: 7.3px; color: #000; bottom: 4px;}
+.employeeLeaveTable .table .Anumber .weekend { line-height: 9px; width: 40px; font-size: 11px; color: #000; position: absolute; margin-top: 3px; display: none;}
+.employeeLeaveTable .table .Anumber.offDay:hover .weekend {display: block;}
+.employeeLeaveTable .table .approved {font-weight: bold; background: #00B500; color: #fff; font-size: 12px; padding: 10px 15px; border-radius: 30px; text-decoration: none; letter-spacing: .5px;}
+.employeeLeaveTable .table .declined {font-weight: bold; background: #dc3545; color: #fff; font-size: 12px; padding: 10px 15px; border-radius: 30px; text-decoration: none; letter-spacing: .5px;}
+.employeeLeaveTable .table .pending {font-weight: bold; background: #fdc40e; color: #fff; font-size: 12px; padding: 10px 15px; border-radius: 30px; text-decoration: none; letter-spacing: .5px;}
+.employeeLeaveTable .table td {padding-bottom: 0;padding-top:0;}
+ .threeArrowButton{color: #777777!important;text-align: center!important;line-height: 60px!important; border: 0!important;background: transparent!important;text-align: right!important;padding-right: 15px;}
+  #EmployeeLeave .table thead tr {text-align: center;}
+#EmployeeLeave .Anumber{text-align: center;}
+#EmployeeHolidaysTable thead th{padding-left: 0;}
+
+/****************************Employee Leave Table CSS End**********************/
+/****************************Employee Leave Details Table CSS Start**********************/
+
+.employeeLeaveDetailProfile .info{max-width: 1440px;height: 103px;width: 100%;background-color: #fff;border: 1px solid #fff;}
+.employeeLeaveDetailProfile .info .name{font-size: 18px;color: #333333;font-family: 'Montserrat', sans-serif;font-weight: 600;line-height: 50px;}
+.employeeLeaveDetailProfile .info .designation{font-size: 15px;color: #8E8E8E;font-family: 'Montserrat', sans-serif;font-weight: 600;}
+.employeeLeaveDetailProfile .info p {margin-left: 21px;}
+.leavesnumber .Aleave{border: 1px solid #E3E3E3;border-radius: 5px;background: #fff;min-height: 145px; text-align: center; padding: 15px;}
+.leavesnumber .Aleave i {font-size: 32px; color: #207DAF;}
+.employeeLeaveTable .number {font-size: 14px;color: #333333;font-family: 'Montserrat', sans-serif;font-weight: 600; }
+#Reporting .reportto h3{font-size: 15px;line-height: 19px;color: #333333;font-family: 'Montserrat', sans-serif;font-weight: bold;text-transform: uppercase;}
+#Reporting .reportingManager {border: 1px solid #E3E3E3;border-radius: 5px;background: #fff;padding: 31px 107px 49px 21px;}
+#Reporting img {height: 42px;max-width:42px;}
+#Reporting .profileInfo h3 {font-size: 15px;line-height: 19px;color: #333333;font-family: 'Montserrat', sans-serif;font-weight: 600;margin-bottom: 0;text-transform: capitalize;}
+#Reporting .profileInfo p {font-size: 12px;line-height: 15px;color: #8E8E8E;font-family: 'Montserrat', sans-serif;font-weight: 600;}
+ .leaveApplication{border: 1px solid #E3E3E3;border-radius: 5px;background: #fff;padding: 15px 31px 95px 14px;}
+ .leaveApplication strong{font-size: 15px;line-height: 33px;color: #1F1F1F;font-family: 'Montserrat', sans-serif;font-weight: 600;}
+ .leaveApplication p{font-size: 15px;line-height: 22px;color: #333333;font-family: 'Montserrat', sans-serif;font-weight: 600;}
+ #filter h3{font-size: 15px;line-height: 19px;color: #333333;font-family: 'Montserrat', sans-serif;font-weight: 600;margin-bottom: 0;text-transform: capitalize;}
+/****************************Employee Leave Details Table CSS Start**********************/
+
+
+
+/****************************Employee Leave Details Table CSS End**********************/
+
+/****************************Employee Leave Admin Table CSS Start**********************/
+#EmployeeLeaveAdmin h2{font-size: 18px;color: #333333;font-family: 'Montserrat', sans-serif;font-weight: bold;line-height: 22px;}
+#EmployeeLeaveAdmin .table a{text-decoration: none;color: #fff; line-height: 16px;}
+#EmployeeLeaveAdmin .table.table td h2 a {color: #333;font-weight: 600;text-decoration: none;font-size: 16px;}
+.table .viewButton {border: 1px solid #DEE2E6;border-radius: 17px;max-width: 100%;width: 100%;height: 33px;color: #333333;font-size: 12px;font-family: 'Montserrat', sans-serif;font-weight: 400;text-transform: uppercase;display: block;background: #fff; display: flex; align-items: center; padding-left: 10px; padding-right: 10px;}
+
+/****************************Employee Leave Admin Table CSS End**********************/
+
+
+
+
+
+
+/****************************Employee Leave Form CSS Start**********************/
+
+.employeeLeaveForm .info .name{font-size: 18px;color: #333333;font-family: 'Montserrat', sans-serif;font-weight: 600;line-height: 50px;}
+.employeeLeaveForm .info .designation{font-size: 15px;color: #8E8E8E;font-family: 'Montserrat', sans-serif;font-weight: 600;}
+.employeeLeaveForm .info p {margin-left: 21px;}
+.employeeLeaveForm .leaveApprovalLink button{display: inline-block;text-decoration: none;border: 1px solid #E3E3E3;border-radius: 31px; background:#fff;max-width: 120px;width: 100%;height: 35px;margin: 4px auto;text-align: center;font-size: 13px;color: #333333;line-height: 35px;font-family: 'Montserrat', sans-serif;font-weight: 600;}
+.employeeLeaveForm .contentHolder{background-color: #fff;border: 1px solid #fff;}
+span.leavesCategory {font-size: 16px!important;}
+
+/****************************Employee Leave Form CSS Start**********************/
+
+
+/****************************Employee Dashboard Form CSS Start**********************/
+#employeeDashboard h3{font-size: 15px;line-height: 19px;color: #333333;font-family: 'Montserrat', sans-serif;font-weight: bold;margin-bottom: 0;text-transform: capitalize;}
+#employeeDashboard .contentHolder {border: 1px solid #E3E3E3;border-radius: 5px;background: #fff;height: 77px;max-width:759px;width: 100%;padding: 0 15px}
+#employeeDashboard .contentHolder .innerText {font-size: 18px;color: #333333;font-family: 'Montserrat', sans-serif;font-weight: bold!important;}
+#employeeDashboard .contentHolder .active{font-size: 18px;color: #207DAF;font-family: 'Montserrat', sans-serif;font-weight: bold!important;}
+#employeeDashboard .leavesRecord button {max-width: 138px;width: 100%; height: 38px;margin: 0 auto; text-align: center;border-radius: 25px;background: #207DAF;color: #fff;font-size: 16px;font-family: 'Montserrat', sans-serif;font-weight: bold;border: 0;}
+#employeeDashboard .leavesRecord strong{display: block;font-size: 20px;color: #333333;font-family: 'Montserrat', sans-serif;font-weight: bolder;line-height: 24px;text-align: center;}
+#employeeDashboard .leavesRecord b{font-size: 14px;color: #777777;font-family: 'Montserrat', sans-serif;font-weight: bold;line-height: 18px;text-align: center;width: 100%;display: inline-block;margin-bottom: 15px;}
+#employeeDashboard .leavesRecord .applyforLeave {border: 1px solid #E3E3E3;border-radius: 5px;background: #fff;padding: 20px;}
+#employeeDashboard .leaverecord1{border-right:1px solid #E3E3E3;;}
+#employeeDashboard .leavesRecord  p{font-size: 20px;color: #333333;font-family: 'Montserrat', sans-serif;font-weight: bolder;line-height: 24px;text-align: center;}
+#employeeDashboard .contentHolder img:not(:last-of-type){position: relative;left: 15px;}
+/****************************Employee Dashboard Form CSS End**********************/
+
+/****************************Employee Dashboard Form Popup CSS Start**********************/
+.modal-dialog .modal-content .modal-header {flex-direction: row-reverse;}
+.modal-dialog .modal-content .modal-body h3{font-size: 20px;color: #1F1F1F;font-family: 'Montserrat', sans-serif;font-weight: bold;line-height: 24px;text-align: center;}
+.modal-dialog .modal-content .modal-body label {font-size: 15px;color: #1F1F1F;font-family: 'Montserrat', sans-serif;font-weight: 600;line-height: 19px; display: block;margin-top: 10px;}
+.modal-dialog .modal-content .modal-body ::placeholder{font-size: 14px;color: #676767;font-family: 'Montserrat', sans-serif;font-weight: 600;line-height: 18px;}
+.modal-dialog .modal-content .modal-body form  input {max-width: 440px;width: 100%;height: 50px;border: 1px solid #E3E3E3;border-radius: 5px;padding: 0 12px;}
+.modal-dialog .modal-content .modal-body form  .numofLeaves {max-width: 100%;width: 100%;height: 50px; background: #E9ECEF;border: 1px solid #E3E3E3;border-radius: 5px;}
+.modal-dialog .modal-content .modal-body form  select {max-width: 440px;width: 100%;height: 50px;font-size: 14px;color: #676767;font-family: 'Montserrat', sans-serif;font-weight: 600;line-height: 18px;border: 1px solid #E3E3E3; border-radius: 5px;padding: 0 12px;}
+.modal-dialog .modal-content .modal-body form  textarea {max-width: 440px;width: 100%; border: 1px solid #E3E3E3;border-radius: 5px;}
+.modal-dialog .modal-content .modal-body form .leavesDetail {font-size: 16px; font-weight: normal; color: #207DAF;}
+.modal-dialog .modal-content .modal-body form .charCount {font-size: 16px; font-weight: normal; color: #207DAF;}
+.modal-dialog .modal-content .modal-body form .charCount span {color: #ff0000;}
+.modal-dialog .modal-content .modal-body form .leavesDetail span {padding: 2px 5px; background: #fdc40e; color: #000; font-style: italic;}
+.modal-dialog .modal-content .modal-body form .popupdate button{position: absolute;top: 10px;right: 35px; border: 0px;}
+.modal-dialog .modal-content .modal-body form .sendButton{width: auto;height: 38px;margin: 35px auto 15px; border-radius: 25px;border: 0;background: #28a745;font-size: 16px;line-height: 38px;text-transform: uppercase;font-family: 'Montserrat', sans-serif;font-weight: bold;text-align: center;color: #fff;display: block;}
+.modal-dialog .modal-content .modal-body form .closeButton {position: absolute;top: 5px;right: 0;border: 0;background: transparent;padding: 0;}
+.modal-dialog .modal-content {padding: 0 20px;}
+.modal-dialog .modal-content .modal-body .application {font-family: "Montserrat"; font-size: 18px;}
+.modal-dialog .modal-content .modal-body .application .attachment {display: flex; align-items: center;}
+.modal-dialog .modal-content .modal-body .application .attachment a {margin-right: 30px; text-decoration: none; width: 180px; min-height: 120px; display: flex; flex-direction: column; align-items: center; background-color: #f5f5f5; padding: 3px;}
+.modal-dialog .modal-content .modal-body .application .attachment a span {color:#777; font-size: 12px; line-height: 16px; font-weight: bold; background-color: #f5f5f5; min-height: 33px; width: 100%; padding: 10px;}
+.modal-dialog .modal-content .modal-body .application .attachment a img {width: 100%;}
+.modal-dialog .modal-content .modal-body .application .attachment i.fa-file-pdf {font-size: 104px; color: #ed0008;}
+.modal-dialog .modal-content .modal-body .application .attachment i.fa-image {font-size: 80px;}
+
+
+
+.inputfile + label {
+  color: #f1e5e6;
+  background-color: #207DAF;
+}
+.inputfile + label svg {
+  width: 1em;
+  height: 1em;
+  vertical-align: middle;
+  fill: currentColor;
+  margin-top: -0.25em;
+  margin-right: 0.25em;
+}
+.inputfile + label {
+  max-width: 100%;
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  cursor: pointer;
+  display: inline-block;
+  overflow: hidden;
+  padding: 0.625rem 1.25rem;
+  color:#fff !important;
+}
+.box .inputfile {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+@media (min-width: 576px) {
+  #EmployeeLeaveDetails .modal-dialog {
+      max-width: 60%;
+      margin: 1.75rem auto;
+  }
+}
+/****************************Employee Dashboard Form Popup CSS End**********************/
+
+/****************************Employee Attendance CSS Start**********************/
+.AttendancePunchIn .timesheet{border: 1px solid #E3E3E3;border-radius: 5px;background:#fff;max-width: 100%;width: 100%;height: auto;padding: 16px 19px; display:flex; flex-direction: column; align-items: center;}
+.AttendancePunchIn .timesheet.width {max-width: 100%; height: auto;}
+.AttendancePunchIn .timesheet p strong{font-size: 20px;color: #1F1F1F;font-family: 'Montserrat', sans-serif;font-weight: bold;line-height: 24px;}
+.AttendancePunchIn .timesheet p span {font-size: 20px;color: #8E8E8E;font-family: 'Montserrat', sans-serif;font-weight: bold;line-height: 24px;}
+.AttendancePunchIn .timesheet .punchIn{border: 1px solid #E3E3E3;border-radius: 5px;background: #F9F9F9;max-width: 331px;width: 100%;height: auto;padding: 14px 12px;margin-bottom: 32px;margin-top: 20px;}
+.AttendancePunchIn .timesheet .punchIn strong{font-size: 12px;color: #1F1F1F;font-family: 'Montserrat', sans-serif;font-weight: bold;line-height: 15px;display: block;}
+.AttendancePunchIn .timesheet .punchIn span{font-size: 14px;color: #727272;font-family: 'Montserrat', sans-serif;font-weight: bold;line-height: 18px;}
+.AttendancePunchIn .timesheet button {max-width: 331px;width: 100%;height: 45px;border-radius: 23px;background: #F62D51;text-align: center;font-size: 16px;color: #fff;line-height: 45px;border:0;font-family: 'Montserrat', sans-serif;font-weight: bold;}
+.AttendancePunchIn .timesheet span.status {width: auto; padding: 5px 10px; border-radius: 3px; color: #00B500; font-size: 12px; font-weight: bold; position: relative; margin-top: -30px; margin-left: 10%;}
+.employeeAttendance .table td {height: 45px;}
+
+.employeeAttendance .table tr {padding: 0 15px ;}
+.employeeAttendance .table thead tr th{height: 45px;font-size: 14px;color: #333333;font-family: 'Montserrat', sans-serif;font-weight: bold; }
+
+.employeeAttendance .table-striped td {font-size: 14px;line-height: 45px;color: #333333;font-family: 'Montserrat', sans-serif;font-weight: 600;}
+.employeeAttendance .table .number {text-align: center;}
+
+/****************************Employee Attendance Record CSS Start**********************/
+.employeeLeaveTable .table .Anumber .absent{display: flex;justify-content: center;flex-direction: column;height: 100%;color: #F62D51;}
+.employeeLeaveTable .table .Anumber .halfLeave{color: #00B500;}
+.employeeLeaveTable .table .Anumber i {font-size: 18px; font-weight: bold; width: 40px;}
+#EmployeeAttendanceDashboard .table td.linkButton {padding-top: 12px;}
+/****************************Employee Attendance Record CSS End**********************/
+
+
+.staticBackdrop1 .modal-dialog .modal-content .modal-body .timesheet {border: 0;width: 100%;height: auto;padding: 0;max-width: 40%;margin: 50px auto;text-align: center;}
+.staticBackdrop1 .modal-dialog .modal-content .modal-body .closeButton {position: absolute;top: 5px;right: 0;border: 0;background: transparent;padding: 0;}
+.staticBackdrop1 .modal-dialog.modal-dialog-centered{max-width: 828px;width: 100%;}
+.staticBackdrop1 .modal-dialog .modal-content{height: auto;border-radius: 15px;}
+
+
+#EmployeePaySlip .table .linkButton button {max-width: 104px;width: 100;height: 33px;color: #fff;background: #F62D51;text-transform: capitalize;}
+
+#EmployeePaySlipRecord .table .linkButton button {max-width: 110px;width: 100;height: 33px;color: #fff;background: #F62D51;text-transform: capitalize;padding: 0 15px;}
+#EmployeePaySlipRecord .table .linkButton a {max-width: 110px;width: 100;height: 33px;color: #fff;background: #F62D51;text-transform: capitalize;padding: 0 15px; line-height: 30px; text-decoration: none;}
+#EmployeePaySlip .table .linkButton a {max-width: inherit !important;width: auto;height: 33px;color: #fff;background: #F62D51;text-transform: capitalize;padding: 0 15px; line-height: 30px; text-decoration: none;}
+
+.InnerContent .breadcrumbs .menuButton .btn-group {border: 1px solid #E3E3E3;border-radius: 5px;background: #fff;height: 32px;max-width: 276px; width: 100%;margin-bottom: 15px;}
+.InnerContent .breadcrumbs .menuButton .btn-group button{padding-top:0; border-right: 1px solid #E3E3E3;}
+
+#payslip{padding: 23px;}
+.payslipinner{border: 1px solid #E3E3E3;border-radius: 5px;background: #fff;}
+#payslip h2{font-size: 17px;line-height: 20px;color: #343434;font-family: 'Montserrat', sans-serif;font-weight: bold;text-transform: uppercase;text-decoration: underline;text-align:center;margin-top: 19px;}
+#payslip .address{font-size: 15px;line-height: 19px;color: #343434;font-family: 'Montserrat', sans-serif;font-weight: 400;display: block;}
+#payslip strong{font-size: 15px;line-height: 19px;color: #333333;font-family: 'Montserrat', sans-serif;font-weight: bold;display: block;margin-top: 15px;}
+#payslip p {font-size: 14px;line-height: 18px;color: #333333;font-family: 'Montserrat', sans-serif;font-weight: bold;}
+#payslip .leftside{ max-width: 207px;width: 100%;}
+#payslip .rightside{max-width: 310px;width: 100%;text-align: right;}
+#payslip .rightside h3{font-size: 20px;line-height: 24px;color: #343434;font-family: 'Montserrat', sans-serif;font-weight: bold;text-transform: uppercase;margin-bottom: 0;}
+#payslip h4{font-size: 16px;line-height: 19px;color: #343434;font-family: 'Montserrat', sans-serif;font-weight: bolder;text-transform: uppercase;}
+#payslip .salaryInfo p{display: flex;justify-content: space-between;align-items: center;    border: 1px solid #E3E3E3;margin-bottom: 0px;padding: 12px 9px; border-bottom: 0;}
+#payslip .salaryInfo p:last-of-type{ border-bottom: 1px solid #E3E3E3;}
+#payslip .salaryInfo p strong {font-size: 14px;line-height: 18px;color: #343434;font-family: 'Montserrat', sans-serif;font-weight: bolder;margin-top: 0;margin-right: 22px;}
+#payslip .salaryInfo p span {font-size: 14px;line-height: 18px;color: #343434;font-family: 'Montserrat', sans-serif;font-weight: 600;}
+#payslip .salaryInfo p label {font-size: 14px;line-height: 18px;color: #343434;font-family: 'Montserrat', sans-serif;font-weight: 600;}
+#payslip .salaryInfo p input {font-size: 14px;line-height: 18px;color: #343434;font-family: 'Montserrat', sans-serif;font-weight: 600;}
+#payslip .commentpart p{font-size: 14px;line-height: 18px;color: #343434;font-family: 'Montserrat', sans-serif;font-weight: 600;margin-top: 10px;}
+#payslip .commentpart p strong{font-size: 14px;line-height: 18px;color: #343434;font-family: 'Montserrat', sans-serif;font-weight: bolder;text-transform: uppercase;display: inline-block;}
+
+/****************************Other CSS*****************************/
+.breadcrumb{margin-bottom: 0;}
+article .container{max-width: 100%;}
+
+/****************************Employee Attendance CSS End**********************/
+
+@media(max-width:991px){
+.AttendancePunchIn .col-12{margin: 0 auto;}
+#employeeDashboard .container{padding: 0!important;max-width: 100%;}
+#filter input {max-width: 100%;}
+.employeeLeaveTable .container{max-width: 100%;}
+.leaveApprovalLink{text-align: right;}
+.employeePersonalInfo .w-50.d-inline-block {width: auto!important;}
+#payslip .container{max-width:100%;}
+section#EmployeeLeave .row {margin: 0 auto;}
+section#EmployeeLeave .row .col-12.mt-4.table-responsive {padding: 0;}
+section#EmployeePaySlipRecord .row {margin: 0 auto;}
+section#EmployeePaySlipRecord .row .table-responsive {padding: 0;}
+section#EmployeeHolidaysTable .row {margin: 0 auto;}
+section#EmployeeHolidaysTable .row .table-responsive {padding: 0;}
+}
+@media(max-width:768px){
+  header{height:auto;padding: 10px 0;}
+  .container{padding: 0;}
+  #employeeDashboard .leaverecord1{border:0;}
+  #filter select {max-width: 100%;}
+  #employeeLeaveRecord .leaveRecord{height: 100%;}
+  #staticBackdrop1 .modal-dialog .modal-content .modal-body .timesheet{max-width: 100%;}
+  #employeeInfo .profileInfo{border: 0;}
+  #payslip .container{padding: 15px;}
+  #payslip{padding: 0;padding-top: 15px;}
+  #employeeInfo .bioInfo{    padding: 24px 17px 27px;
+  }
+
+
+  
+}
+
+@media (max-width: 575px) {
+  .container{padding: 0;}
+  #breadCrumbs .menuButton .employee{max-width: 70px;height: 33px;font-size: 0;}
+  #breadCrumbs .menuButton .employee i{font-size: 16px;}
+  .breadcrumbs .breadcrumbContent h2{font-size: 17px;}
+  .breadcrumbs nav .breadcrumb .breadcrumb-item a {font-size: 13px;}
+  .breadcrumbs nav .breadcrumb .breadcrumb-item.active {font-size: 13px;padding-left: 2px;}
+  .breadcrumb-item+.breadcrumb-item::before{padding-right: 2px;}
+  #filter input{font-size: 12px;}
+  #filter select{font-size: 12px;}
+  #AllEmployeeInner1 #ProfileCart .sub h2{font-size: 14px;}
+  #AllEmployeeInner1 #ProfileCart .sub p{font-size: 12px;}
+  #employeeDashboard .contentHolder .active strong{font-size: 15px;font-weight: bold!important;}
+  #employeeDashboard .contentHolder .innerText{font-size: 15px;font-weight: bold!important;}
+  #employeeDashboard .col-lg-8.col-md-8.col-sm-12.col-12.mb-3{margin-bottom: 0!important;}
+  #employeeDashboard .col-lg-4.col-md-4.col-sm-12.col-12.leavesRecord.mt-4{margin-top: 0!important;}
+  #employeeDashboard .leavesRecord .applyforLeave{font-size: 15px;font-weight: bold!important;margin-bottom: 0;}
+  #employeeDashboard h3{margin-top: 0!important;}
+  #employeeDashboard .leaverecord1 {border-right: 1px solid #E3E3E3;}
+  #employeeDashboard .contentHolder span.text-end{display: inherit;}
+  .breadcrumbs .breadcrumbContent h2{margin-bottom: 0;}
+  #Reporting .reportingManager{padding: 15px 0 15px 10px;}
+  .bioInfo .w-25.d-inline-block {width: auto!important;}
+  #employeeInfo .bioInfo .sub{font-size: 14px;}
+  #employeeInfo .bioInfo .contactInfo{font-size: 14px;}
+  #employeeInfo .bioInfo .adressInfo {font-size: 14px;}
+  #employeeTabs .tabContents .contactInfo{font-size: 14px;}
+  #employeeTabs .tabContents .sub{font-size: 14px;}
+  .employeeLeaveForm .info .designation {font-size: 14px;}
+  .employeeLeaveForm .info .name{font-size: 16px;line-height: 20px;}
+  .info{margin-top: 5px!important;}
+  .payslipContentHolder{display: block!important;}
+  #payslip .rightside{max-width: 100%;text-align: left;}
+  .InnerContent .breadcrumbs .menuButton .btn-group button{font-size: 13px;}
+  header .container-fluid{padding: 0;}
+  header .companyName p img {margin-right: 15.0px;}
+  header .companyName p span{display: inline-flex;}
+  .InnerContent .modal-dialog.w-100.mw-100.mx-0 .modal-content .modal-body{padding: 0;}
+}
+@media (max-width: 400px) {
+header .companyName p{text-align: center;}
+}
+
+@media (max-width: 1304px) {
+
+  .bioInfo .w-50.d-inline-block {}
+  #employeeTabs .Cinfo{width: auto!important;}  
+  .emergencyInfo .w-25.d-inline-block {width: auto!important;}
+.secondaryinfo .w-25.d-inline-block {width: auto!important;}
+  
+
+}
+
+/****************************Header SideBar CSS End**********************/
+
+/*.info{
+  display: inline-block;
+  font-size: inherit;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+}*/
+
+
+
+
+.main-wrapper {
+  display: flex;
+}
+
+/*...................... Table ...................*/
+
+.table-responsive {
+  white-space: nowrap;
+  width: 100%;
+}
+
+.table {
+  color: #333;
+}
+
+table.table td h2 {
+  display: inline-block;
+  font-size: inherit;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+  font-family: 'Montserrat', sans-serif;
+}
+
+td {
+  vertical-align: middle;
+}
+
+table.table td h2.table-avatar {
+  align-items: center;
+  display: inline-flex;
+  font-size: inherit;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+white-space: nowrap;
+}
+
+.avatar {
+  margin-right: 8px;
+}
+
+table.table td h2 a {
+color: #333;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: 'Montserrat',sans-serif;
+}
+
+table.table td h2 a span {
+  font-weight: 400;
+}
+
+table.table td h2 a:hover {
+color: #207DAF;
+  text-decoration: none;
+}
+
+table.table td h2 span {
+color: #888;
+display: block;
+font-size: 12px;
+margin-top: 3px;
+}
+
+
+/************* Login Page
+
+#login{height: 100vh;display: flex;align-items: center;background:url("../images/Path 116.svg"), #207DAF;background-repeat:no-repeat;background-position: top right;background-size:auto;}
+#login .loginFormContent{border: 1px solid #D8DDE6;border-radius: 5px;background-color: #fff;padding: 29px 33px;margin-top: 27px;max-width: 404px;margin:27px auto 0;}
+#login .loginFormContent form label{font-family: 'Montserrat', sans-serif;font-size: 16px;color: #000;line-height: 19px;text-transform: capitalize;margin-bottom: 8px;font-weight: 500;}
+#login .loginFormContent form input.form-control{max-width: 338px;width: 100%;border-radius: 5px;height: 42px;border:1px solid #D8DDE6;margin-bottom:24px;}
+#login .loginFormContent form button{background-color: #207DAF;border-radius: 5px;height: 42px;width: 100%;max-width: 338px;font-size:16px;line-height: 42px;color:#fff;font-weight: bold;text-align: center; text-transform: capitalize;margin: 0 auto 24px;display: block;padding: 0px;}
+#login .loginFormContent hr{margin:23.5px auto 24.5px;display: block;}
+#login .loginFormContent a{font-family: 'Montserrat', sans-serif;font-size: 16px;color: #000;line-height: 19px;text-transform: capitalize;margin-bottom: 8px;font-weight: 500;text-decoration: none;}
+
+
+
